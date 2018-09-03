@@ -7,4 +7,6 @@ The model is in the raw form and is not a end-to-end solution. User needs to bui
 
 About the Model.
 - **2 Convolutional Layers** followed by **max pooling** layers.
-- Activation to fire the weith matrix: ReLU
+- Activation to fire the weith matrix : **ReLU**
+- Activation function of output layer after flattening : **Sigmoid** (since only two classes are there. Hence 2 Dimentional Data)
+- Softmax can be used for higer dimentional data.
