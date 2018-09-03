@@ -5,3 +5,6 @@ Dataset contains 4000 images of cats and dogs in training set and 1000 images of
 
 The model is in the raw form and is not a end-to-end solution. User needs to build pipeline to use it in real time.
 
+About the Model.
+- **2 Convolutional Layers** followed by **max pooling** layers.
+- Activation to fire the weith matrix: ReLU
